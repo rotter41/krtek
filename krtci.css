@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    height: 600px;
+    width: 750px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    
+}
+
+
+.container div {
+    font-size: large;
+    user-select: none;
+    background-color: gray;
+    border: solid;
+    border-radius: 50px;
+    width: 100px; 
+    height: 100px;
+    margin: 50px; 
+    text-align: center;
+    line-height: 100px; 
+    
+}
+
+.di:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.di:active {
+    background-color: brown;
+    box-shadow: 5px 8px 10px gray;
+}
+
+#zac
+{
+    background-color: black;
+    color: azure;
+    user-select: none;
+    width: 200px;
+    border-radius: 10px;
+    border: outset;
+    position: absolute;
+    border-color: black;
+    top: 1000px;
+    left: 635px;
+}
+
+
+
+
